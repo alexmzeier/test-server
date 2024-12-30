@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-server"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Zeier <alexander.zeier@outlook.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = {extras = ["standard"], version = "^0.30.6"}
+fastapi = "^0.114.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
